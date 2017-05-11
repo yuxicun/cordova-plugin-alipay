@@ -18,4 +18,8 @@ AliPay.pay(payInfo,
 
 #修改于http://blog.csdn.net/qq_15096707/article/details/53073547#
 
-
+4.在info.plist里面添加
+<key>LSApplicationQueriesSchemes</key>
+<array>
+	<string>alipay</string>
+</array>
